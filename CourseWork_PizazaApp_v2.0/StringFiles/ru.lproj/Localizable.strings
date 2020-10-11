@@ -1,0 +1,143 @@
+/* 
+  Localizable.strings
+  CourseWork_PizazaApp_v2.0
+
+  Created by Vladislav Sharaev on 9/10/20.
+  Copyright © 2020 Vladislav Sharaev. All rights reserved.
+*/
+
+
+/////// MAIN STORYBOARD
+// ReachablityVC
+"refreshBtn" = "Обновить";
+
+// AuthVC
+"loginBtn" = "Войти";
+"registerBtn" = "Зарегистрироваться";
+"googleLoginBtn" = "Войти через Google";
+"emailPlaceholder" = "Почтовый ящик";
+"passwordPlaceholder" = "Пароль";
+"forgotPasswordBtn" = "Забыли пароль?";
+"responseEmptyPassword" = "Пароль должен быть заполнен";
+"responseEmptyEmail" = "Почтовый ящик должен быть заполнен";
+"respWrongEmailOrPass" = "Неверный почтовый ящик или пароль";
+
+// ForgotPasswordViewController
+"changePasswordBtn" = "Сбросить пароль";
+"respWrongEmail" = "Неверный почтовый ящик";
+"respSendNewPass" = "Пароль отправлен на почтовый ящик";
+
+// RegistrationViewController
+"characters" = "йцукенгшщзхъфывапролджэячсмитьбюёЁЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ";
+"numbers" = "1234567890";
+"respUnknownError" = "Неизвестная ошибка";
+"respInvalidDataType" = "Неверный формат данных";
+
+///////////////////////////////////////
+
+/////// ADMIN STORYBOARD
+// RoleVC
+"adminSegmentedControl" = "Администраторы";
+"deliverymanSegmentedControl" = "Доставщики";
+"roleNavigation" = "Роль";
+
+// Admin and Deliveryman VC
+"alertTitle" = "Добавление пользователя";
+
+// ACategoriesVC
+"navTitleACategories" = "Категории";
+
+//CreateCategorieVC
+"navTitleCreateCategorie" = "Создание категории";
+"imgUrlPlaceholder" = "URL изображения";
+"categorieNamePlaceholder" = "Имя категории";
+"nextStepCreateCategorie" = "Дальше";
+"newCategorieLabel" = "New categorie";
+
+// CreateFoodViewController
+"foodNamePlaceholder" = "Название блюда";
+"ingridientsPlaceholder" = "Ингридиенты";
+"maxCaloriesPlaceholder" = "Максимум калориев";
+"minCaloriesPlaceholder" = "Минимум калориев";
+"maxCostPlaceholder" = "Максильманая стоимость";
+"minCostPlaceholder" = "Минимальная стоимость";
+"createBtn" = "Создать";
+
+//EditCategorieViewController
+"saveBtn" = "Сохранить";
+
+///////////////////////////////////////
+
+/////// SIMPLE STORYBOARD
+//CategoriesCollectionViewCell
+"anotherCategoriesLabel" = "Другие категории:";
+
+//FoodViewController
+"foodCountLabel" = " продуктов";
+
+"br" = "Б/р.";
+
+//OneFoodViewController
+"addToCartBtn" = "Добавить в корзину";
+"standartSize" = "Стандартный размер";
+"smallSize" = "Маленький размер";
+
+//BasketViewController
+"basketTitle" = "Корзина";
+"totalCostTxt" = "Финальная сумма:";
+"createOrder" = "Оформить заказ";
+"addToBasketAlertTitle" = "Продукт успешно добавлен";
+"addToBasketMessage" = "Добавьте что-нибудь еще";
+
+//ProfileSettingsViewController
+"selectedProductsTitle" = "Избранные товары";
+"userDataText" = "Данные пользователя:";
+"nameTFPlaceholder" = "Имя";
+"telephoneTFPlaceholder" = "Телефон: 80(**)...";
+"settingTitle" = "Настройки";
+"errorTitle" = "Ошибка";
+"successTitle" = "Успех";
+"dataSaved" = "Данные пользователя сохранены";
+"exitBtn" = "Выйти";
+
+//CreateOrder ViewController
+"createOrderTitle" = "Оформить заказ";
+"dataText" = "Данные";
+"porchPlaceholder" = "Подъезд";
+"roomPlaceholder" = "Комната";
+"intercomePlaceholder" = "Код от домофона";
+"floorPlaceholder" = "Этаж";
+"orderBtn" = "Заказать";
+"commentPlaceholder" = "Комментарии к заказу";
+"timePlaceholder" = "Заказать на время";
+"writeAllMustHaveFields" = "Заполните все обязательные поля";
+"orderSuccessMessage" = "Заказ оформлен успешно";
+
+//MapViewController
+"orderAddressTitle" = "Адрес доставки";
+"addressPlaceholder" = "Адрес";
+"finishAdressBtn" = "Это мой адрес";
+"geoLocServiceTitle" = "Служба геолокации отключена";
+"geoLocServiceMessage" = "Для работы необходимо включить службу геолокации в настройках";
+"cancelTitle" = "Отмена";
+"goToSettingsMessage" = "Перейти в настройки";
+
+//OrderDetailViewController
+"orderHistoryTitle" = "История заказов";
+"orderDetailTitle" = "Детали заказа";
+"orderTimeTxt" = "Время заказа";
+"orderOnTimeTxt" = "Заказ на время";
+"finalCostTxt" = "Конечная цена";
+"moreBtn" = "Больше";
+
+//MoreOrderDetailTableViewCell
+"countTxt" = "Кол-во: ";
+
+///////////////////////////////////////
+
+/////// Deliveryman STORYBOARD
+//DeliveryViewController
+"allOrdersTitle" = "Все заказы";
+
+//CompletedViewController
+"completedOrdersTitle" = "Выполненные заказы";

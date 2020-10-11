@@ -1,0 +1,144 @@
+/* 
+  Localizable.strings
+  CourseWork_PizazaApp_v2.0
+
+  Created by Vladislav Sharaev on 9/10/20.
+  Copyright © 2020 Vladislav Sharaev. All rights reserved.
+*/
+
+
+/////// MAIN STORYBOARD
+// ReachablityVC
+"refreshBtn" = "Refresh";
+
+// AuthVC
+"loginBtn" = "Log in";
+"registerBtn" = "Registration";
+"googleLoginBtn" = "Login with Google";
+"emailPlaceholder" = "E-mail";
+"passwordPlaceholder" = "Password";
+"forgotPasswordBtn" = "Forgot password?";
+"responseEmptyPassword" = "Password must not be empty";
+"responseEmptyEmail" = "E-mail must not be empty";
+"respWrongEmailOrPass" = "Invalid e-mail or password";
+
+// ForgotPasswordViewController
+"changePasswordBtn" = "Change password";
+"respWrongEmail" = "Incorrect e-mail";
+"respSendNewPass" = "The password has been sent to the e-mail";
+
+// RegistrationViewController
+"characters" = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
+"numbers" = "1234567890";
+"respUnknownError" = "Unknown error";
+"respInvalidDataType" = "Invalid data format";
+
+///////////////////////////////////////
+
+/////// ADMIN STORYBOARD
+// RoleVC
+"adminSegmentedControl" = "Administrators";
+"deliverymanSegmentedControl" = "Deliverymans";
+"roleNavigation" = "Role";
+
+// Admin and Deliveryman VC
+"alertTitle" = "Adding user";
+
+// ACategoriesVC
+"navTitleACategories" = "Categories";
+
+//CreateCategorieVC
+"navTitleCreateCategorie" = "Create categorie";
+"imgUrlPlaceholder" = "Image URL";
+"categorieNamePlaceholder" = "Categorie name";
+"nextStepCreateCategorie" = "Next";
+"newCategorieLabel" = "New categorie";
+
+// CreateFoodViewController
+"foodNamePlaceholder" = "Food name";
+"ingridientsPlaceholder" = "Ingridients";
+"maxCaloriesPlaceholder" = "Max calories";
+"minCaloriesPlaceholder" = "Min calories";
+"maxCostPlaceholder" = "Max cost";
+"minCostPlaceholder" = "Min cost";
+"createBtn" = "Create";
+
+//EditCategorieViewController
+"saveBtn" = "Save";
+
+///////////////////////////////////////
+
+/////// SIMPLE STORYBOARD
+//CategoriesCollectionViewCell
+"anotherCategoriesLabel" = "Another categories:";
+
+//FoodViewController
+"foodCountLabel" = " products";
+
+"br" = "B/r.";
+
+//OneFoodViewController
+"addToCartBtn" = "Add to cart";
+"standartSize" = "Standart size";
+"smallSize" = "Small size";
+
+//BasketViewController
+"basketTitle" = "Cort";
+"totalCostTxt" = "Total cost:";
+"createOrder" = "Create order";
+"addToBasketAlertTitle" = "Product added successfully";
+"addToBasketMessage" = "Add something else";
+
+//ProfileSettingsViewController
+"selectedProductsTitle" = "Selected products";
+"userDataText" = "User data:";
+"nameTFPlaceholder" = "Name";
+"telephoneTFPlaceholder" = "Telephone: 80(**)...";
+"settingTitle" = "Settings";
+"errorTitle" = "Error";
+"successTitle" = "Success";
+"dataSaved" = "User data saved!";
+"exitBtn" = "Exit";
+
+//CreateOrder ViewController
+"createOrderTitle" = "Create order";
+"dataText" = "Data";
+"porchPlaceholder" = "Porch";
+"roomPlaceholder" = "Room";
+"intercomePlaceholder" = "Inrecome code";
+"floorPlaceholder" = "Floor";
+"orderBtn" = "Order";
+"commentPlaceholder" = "Commets to order";
+"timePlaceholder" = "Order on time";
+"writeAllMustHaveFields" = "Write all must have fields";
+"orderSuccessMessage" = "Order completed successfully";
+
+//MapViewController
+"orderAddressTitle" = "Order address";
+"addressPlaceholder" = "Address";
+"finishAdressBtn" = "This is my address";
+"geoLocServiceTitle" = "Geolocation service is disabled";
+"geoLocServiceMessage" = "To work you must enable the geolocation service in the settings";
+"cancelTitle" = "Cancel";
+"goToSettingsMessage" = "Go to settings";
+
+//OrderDetailViewController
+"orderHistoryTitle" = "Order history";
+"orderDetailTitle" = "Order details";
+"orderTimeTxt" = "Order time";
+"orderOnTimeTxt" = "Order on time";
+"finalCostTxt" = "Final cost";
+"moreBtn" = "More";
+
+//MoreOrderDetailTableViewCell
+"countTxt" = "Count: ";
+
+///////////////////////////////////////
+
+/////// Deliveryman STORYBOARD
+//DeliveryViewController
+"allOrdersTitle" = "All orders";
+
+//CompletedViewController
+"completedOrdersTitle" = "Completed orders";
+
